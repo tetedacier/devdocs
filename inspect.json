@@ -1,0 +1,118 @@
+[
+    {
+        "Id": "sha256:a6d360682b2f5e0ae1d84b13f0946f44add9e7291ec74f39ac53ef760ecf9195",
+        "RepoTags": [
+            "tetedacier/devdocs:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "sha256:008c68b0bce15b8e4d28b26ad3f9a20ac2b0d078fad527edc6cb7eeb865158d1",
+        "Comment": "",
+        "Created": "2019-04-22T04:43:46.6483325Z",
+        "Container": "fcf9bfa0994e333c68388c29f67046d58dd40c19024c3f396f2b6f0f2312eb9b",
+        "ContainerConfig": {
+            "Hostname": "fcf9bfa0994e",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "9292/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bundle/bin:/usr/local/bundle/gems/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "RUBY_MAJOR=2.6",
+                "RUBY_VERSION=2.6.0",
+                "RUBY_DOWNLOAD_SHA256=acb00f04374899ba8ee74bbbcb9b35c5c6b1fd229f1876554ee76f0f1710ff5f",
+                "GEM_HOME=/usr/local/bundle",
+                "BUNDLE_PATH=/usr/local/bundle",
+                "BUNDLE_SILENCE_ROOT_WARNING=1",
+                "BUNDLE_APP_CONFIG=/usr/local/bundle",
+                "LANG=C.UTF-8"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"/bin/sh\" \"-c\" \"rackup -o 0.0.0.0\"]"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:008c68b0bce15b8e4d28b26ad3f9a20ac2b0d078fad527edc6cb7eeb865158d1",
+            "Volumes": null,
+            "WorkingDir": "/devdocs",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "18.09.2",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "9292/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bundle/bin:/usr/local/bundle/gems/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "RUBY_MAJOR=2.6",
+                "RUBY_VERSION=2.6.0",
+                "RUBY_DOWNLOAD_SHA256=acb00f04374899ba8ee74bbbcb9b35c5c6b1fd229f1876554ee76f0f1710ff5f",
+                "GEM_HOME=/usr/local/bundle",
+                "BUNDLE_PATH=/usr/local/bundle",
+                "BUNDLE_SILENCE_ROOT_WARNING=1",
+                "BUNDLE_APP_CONFIG=/usr/local/bundle",
+                "LANG=C.UTF-8"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "rackup -o 0.0.0.0"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:008c68b0bce15b8e4d28b26ad3f9a20ac2b0d078fad527edc6cb7eeb865158d1",
+            "Volumes": null,
+            "WorkingDir": "/devdocs",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 145369098,
+        "VirtualSize": 145369098,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/4b364a1669c4cfb8b8c6475d55d1ad982ca016a566ccc8926c942f992efeacba/diff:/var/lib/docker/overlay2/fbb3c18d2b6dde44dc78f5363c528aa60e4ee9966545a82f8e2413165c5db778/diff:/var/lib/docker/overlay2/ccb84014bbba386f966e8ee5b28851cb1060de946711f0cd6fda55b1d68d2f36/diff:/var/lib/docker/overlay2/98d323391262f97121a4fe492c612f979df636e722c363814b2e73d41aa6f53b/diff:/var/lib/docker/overlay2/9f85e9baf6346a2bfa29c673d92d12e56b3d8ceaaaa4d582796f506b921ed1e7/diff:/var/lib/docker/overlay2/964268e9e89a5d496b57bde53cdf2ab1286f90ba00bbecddc24d602634b61518/diff",
+                "MergedDir": "/var/lib/docker/overlay2/c4c8acaa90af8c6ac38c758277197d512d1c0196d4eb3f00d637fc0649f60a91/merged",
+                "UpperDir": "/var/lib/docker/overlay2/c4c8acaa90af8c6ac38c758277197d512d1c0196d4eb3f00d637fc0649f60a91/diff",
+                "WorkDir": "/var/lib/docker/overlay2/c4c8acaa90af8c6ac38c758277197d512d1c0196d4eb3f00d637fc0649f60a91/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:767f936afb51c8a3ad9a96592a4be092048bb70f2ca410028a0b3f64b826acbb",
+                "sha256:4aeb17d69be0bdb6d396a6d461fa3d2142dac6b2f0d933fd88d5e03939649961",
+                "sha256:0f7b7e8da73d697d176d89a328ca24d825ff3c3bb64ed5b13df798dfd8a7e0a8",
+                "sha256:aadecad64962ef6ebc802671a8e04e8d0b8a829d81138536427cf0ca5db52f3a",
+                "sha256:59332ed537a1a818f981a4535d98efb7d1439af17b3d90781c1398a81f6219d8",
+                "sha256:99b61735a89a5ee52ecf453ac43fb5d24f428f7ac458825d56c1a6d51f2baf84",
+                "sha256:eff3bf337dc2013a8005dbf0c8895a462fdb29467d4c3eb730f80da231a6cc18"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2019-04-22T04:43:46.7476919Z"
+        }
+    }
+]
